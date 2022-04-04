@@ -1,0 +1,685 @@
+<?php session_start() ?>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOLO Store</title>
+    <!-- link css & js -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/homepage.css"/>
+    <!-- fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Itim&family=Monda&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet"> -->
+    <!-- css of fullpagejs -->
+    <link rel='stylesheet' href='css/jquery.fullPage.css'>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <h1><a class="navbar-brand" href="#">lolo store</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link about-us-menu" href="#gioi-thieu">về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link services-menu" href="#dich-vu">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link store-menu" href="#cua-hang">store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact-menu" href="#lien-he">liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <div id="fullpage">
+        <!-- gioi-thieu -->
+        <section class="vertical-scrolling">
+            <!-- 1 khoi -->
+            <div class="mainContent" id="introduction">
+                <div class="container">
+                    <div class="row text-content">
+                        <div class="row text-center">
+                            <p class="top-text">
+                                LOLO STORE sẽ giúp bạn
+                            </p>
+                        </div>
+                        <div class="row text-center">
+                            <p class="middle-text">
+                                Thiết kế một website hiện đại và bắt mắt
+                            </p>
+                        </div>
+                        <div class="row text-center">
+                            <p class="bottom-text">
+                                xây dựng website chưa bao giờ dễ đến thế.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6 col-lg-3">
+                            <img class="introduction-img" src="./images/introduction/nyc.png" alt="">
+                            <p class="introduction-text">1. Nhận yêu cầu</p>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <img class="introduction-img" src="./images/introduction/xd.png" alt="">
+                            <p class="introduction-text">2. Xây dựng website</p>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <img class="introduction-img" src="./images/introduction/bg.png" alt="">
+                            <p class="introduction-text">3. Bàn giao</p>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <img class="introduction-img" src="./images/introduction/bt.png" alt="">
+                            <p class="introduction-text">4. Hậu mãi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 1 khoi -->
+        </section>
+        <!-- dich-vu -->
+        <section class="vertical-scrolling">
+            <!-- 1 khoi -->
+            <div class="mainContent" id="service">
+                <div class="container">
+                    <div class="row first-row">
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo text-center">
+                                <img src="./images/services/service1Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Thiết kế website</div>
+                                    <div class="noidung">Bạn đang cần một website chuyên nghiệp, thu hút để cung cấp thông tin doanh nghiệp hoặc cá nhân của bạn.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo">
+                                <img src="./images/services/service2Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Viết content</div>
+                                    <div class="noidung">Bạn đang cần một bài viết đặc sắc, cuốn hút người đọc cho blog hay website của bạn.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo">
+                                <img src="./images/services/service3Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Thêm vị trị trên Google Map</div>
+                                    <div class="noidung">Bạn đang cần thêm địa điểm doanh nghiệp hay shop của bạn lên bản đồ của Google.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo">
+                                <img src="./images/services/service4Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Tăng tương tác cho trang Facebook</div>
+                                    <div class="noidung">Bạn đang cần tăng like, comment, share cho trang facebook của bạn.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo">
+                                <img src="./images/services/service5Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Tăng theo dõi trên Shopee</div>
+                                    <div class="noidung">Bạn đang cần tăng lượng follow shop của bạn trên Shopee.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <div class="bo">
+                                <img src="./images/services/service6Tiny.jpg" alt="" class="layer1">
+                                <div class="layer2">
+                                    <div class="tieude">Phần mềm quản lý kho hàng</div>
+                                    <div class="noidung">Bạn đang cần một phần mềm để quản lý kho hàng một cách chính xác, khoa học.</div>
+                                    <a href="tel:0355478049" class="nut">Liên hệ ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 1 khoi -->
+        </section>
+        <!-- shop -->
+        <section class="vertical-scrolling">
+            <div class="slide">
+                <!-- 1 khoi -->
+                <div class="mainContent" id="first-main-content">
+                    <div class="container d-flex h-100">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-12 col-lg-6 justify-content-center align-self-center heading">
+                                <h2 class="title_about">website giới thiệu</h2>
+                                <p class="text_about">
+                                    Một website giới thiệu về doanh nghiệp vừa hiện đại vừa sang trọng và không kém phần thu hút 
+                                    là tiêu chí hàng đầu để mang khách hàng đến với doanh nghiệp của bạn.
+                                </p>
+                                <button type="button" id="btn-benefit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBenefit">
+                                    Quyền lợi
+                                </button>
+                                <p id="prices">Giá: 7 triệu đồng/website</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="card text-center">
+                                    <div class="products">
+                                        <div class="product product-1 active" product-id="1" >
+                                            <h1 class="title">Baby Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBaby.png"/></div>                                            
+                                            </div>
+                                        <div class="product product-1" product-id="2">
+                                            <h1 class="title">Beauty Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBeauty.png"/></div>                                         
+                                        </div>
+                                        <div class="product product-1" product-id="3">
+                                            <h1 class="title">Blog Fitness</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgFitness.png"/></div>
+                                        </div>
+                                        <div class="product product-1" product-id="4" >
+                                            <h1 class="title">Retro</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgRetro.png"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-prev" id="btn-prev-1" href="#" ripple="" ripple-color="#666666">Prev</a>
+                                        <button type="button" id="btn-show-1" class="btn btn-primary btn-xem" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Xem sản phẩm
+                                        </button>
+                                        <a class="btn btn-next" id="btn-next-1" href="#" ripple="" ripple-color="#666666">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 1 khoi -->
+            </div>
+            <div class="slide">
+                <!-- 1 khoi -->
+                <div class="mainContent" id="second-main-content">
+                    <div class="container d-flex h-100">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-12 col-lg-6 justify-content-center align-self-center heading">
+                                <h2 class="title_about">website tin tức</h2>
+                                <p class="text_about">
+                                    Mang đến cho người đọc những tin tức hữu ích, đầy đủ bằng việc thiết kế một website vừa hiện đại vừa khoa học.
+                                </p>
+                                <button type="button" id="btn-benefit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBenefit">
+                                    Quyền lợi
+                                </button>
+                                <p id="prices">Giá: 7 triệu đồng/website</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="card text-center">
+                                    <div class="products">
+                                        <div class="product product-2 active" product-id="1" >
+                                            <h1 class="title">Baby Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBaby.png"/></div>
+                                            </div>
+                                        <div class="product product-2" product-id="2">
+                                            <h1 class="title">Beauty Blog</h1>
+                                            <div class="thumbnail" id="testabc"><img src="./images/sample/imgBeauty.png"/></div>
+                                        </div>
+                                        <div class="product product-2" product-id="3">                                        
+                                            <h1 class="title">Blog Fitness</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgFitness.png"/></div>
+                                        </div>
+                                        <div class="product product-2" product-id="4" >
+                                            <h1 class="title">Retro</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgRetro.png"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-prev" id="btn-prev-2" href="#" ripple="" ripple-color="#666666">Prev</a>
+                                        <button type="button" id="btn-show-2" class="btn btn-primary btn-xem" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Xem sản phẩm
+                                        </button>
+                                        <a class="btn btn-next" id="btn-next-2" href="#" ripple="" ripple-color="#666666">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- end 1 khoi -->
+            </div>
+            <div class="slide">
+                <!-- 1 khoi -->
+                <div class="mainContent" id="third-main-content">
+                    <div class="container d-flex h-100">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-12 col-lg-6 justify-content-center align-self-center heading">
+                                <h2 class="title_about">website bán hàng</h2>
+                                <p class="text_about">
+                                    Mang đến cho người mua những trải nghiệm mua hàng tốt nhất thông qua một website cung cấp chi tiết, trực quan thông tin về sản phẩm của bạn.
+                                </p>
+                                <button type="button" id="btn-benefit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBenefit">
+                                    Quyền lợi
+                                </button>
+                                <p id="prices">Giá: 7 triệu đồng/website</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="card text-center">
+                                    <div class="products">
+                                        <div class="product product-3 active" product-id="1" >
+                                            <h1 class="title">Baby Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBaby.png"/></div>                                               
+                                            </div>
+                                        <div class="product product-3" product-id="2">
+                                            <h1 class="title">Beauty Blog</h1>
+                                            <div class="thumbnail" id="testabc"><img src="./images/sample/imgBeauty.png"/></div>  
+                                        </div>
+                                        <div class="product product-3" product-id="3">
+                                            <h1 class="title">Blog Fitness</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgFitness.png"/></div>
+                                        </div>
+                                        <div class="product product-3" product-id="4" >
+                                            <h1 class="title">Retro</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgRetro.png"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-prev" id="btn-prev-3" href="#" ripple="" ripple-color="#666666">Prev</a>
+                                        <button type="button" id="btn-show-3" class="btn btn-primary btn-xem" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Xem sản phẩm
+                                        </button>
+                                        <a class="btn btn-next" id="btn-next-3" href="#" ripple="" ripple-color="#666666">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- end 1 khoi -->
+            </div>
+            <div class="slide">
+                <!-- 1 khoi -->
+                <div class="mainContent" id="fourth-main-content">
+                    <div class="container d-flex h-100">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-12 col-lg-6 justify-content-center align-self-center heading">
+                                <h2 class="title_about">website bất động sản</h2>
+                                <p class="text_about">
+                                    Để một website bất động sản có thể hoạt động hiệu quả được thì trang web đó không chỉ cần yếu tố thẩm mỹ, 
+                                    mà còn cần cả sự hiện đại, tiện lợi để mang lại được một trải nghiệm tốt nhất cho khách hàng.
+                                </p>
+                                <button type="button" id="btn-benefit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBenefit">
+                                    Quyền lợi
+                                </button>
+                                <p id="prices">Giá: 7 triệu đồng/website</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="card text-center">
+                                    <div class="products">
+                                        <div class="product product-4 active" product-id="1" >
+                                            <h1 class="title">Baby Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBaby.png"/></div>                                        
+                                            </div>
+                                        <div class="product product-4" product-id="2">
+                                            <h1 class="title">Beauty Blog</h1>
+                                            <div class="thumbnail" id="testabc"><img src="./images/sample/imgBeauty.png"/></div>      
+                                        </div>
+                                        <div class="product product-4" product-id="3">
+                                            <h1 class="title">Blog Fitness</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgFitness.png"/></div>   
+                                        </div>
+                                        <div class="product product-4" product-id="4" >
+                                            <h1 class="title">Retro</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgRetro.png"/></div>     
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-prev" id="btn-prev-4" href="#" ripple="" ripple-color="#666666">Prev</a>
+                                        <button type="button" id="btn-show-4" class="btn btn-primary btn-xem" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Xem sản phẩm
+                                        </button>
+                                        <a class="btn btn-next" id="btn-next-4" href="#" ripple="" ripple-color="#666666">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- end 1 khoi -->
+            </div>
+            <div class="slide">
+                <!-- 1 khoi -->
+                <div class="mainContent" id="fifth-main-content">
+                    <div class="container d-flex h-100">
+                        <div class="row justify-content-center align-self-center">
+                            <div class="col-12 col-lg-6 justify-content-center align-self-center heading">
+                                <h2 class="title_about">Blog</h2>
+                                <p class="text_about">
+                                    Tạo ra một website là nơi để bạn thoả sức sáng tạo và thể hiện khả năng viết lách của mình với một giao diện thân thiện, mang đậm chất cá tính của bạn.
+                                </p>
+                                <button type="button" id="btn-benefit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBenefit">
+                                    Quyền lợi
+                                </button>
+                                <p id="prices">Giá: 7 triệu đồng/website</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="card text-center">
+                                    <div class="products">
+                                        <div class="product product-5 active" product-id="1" >
+                                            <h1 class="title">Baby Blog</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgBaby.png"/></div>
+                                        </div>
+                                        <div class="product product-5" product-id="2">
+                                            <h1 class="title">Beauty Blog</h1>
+                                            <div class="thumbnail" id="testabc"><img src="./images/sample/imgBeauty.png"/></div> 
+                                        </div>
+                                        <div class="product product-5" product-id="3">
+                                            <h1 class="title">Blog Fitness</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgFitness.png"/></div>
+                                        </div>
+                                        <div class="product product-5" product-id="4" >
+                                            <h1 class="title">Retro</h1>
+                                            <div class="thumbnail"><img src="./images/sample/imgRetro.png"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-prev" id="btn-prev-5" href="#" ripple="" ripple-color="#666666">Prev</a>
+                                        <button type="button" id="btn-show-5" class="btn btn-primary btn-xem" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Xem sản phẩm
+                                        </button>
+                                        <a class="btn btn-next" id="btn-next-5" href="#" ripple="" ripple-color="#666666">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- end 1 khoi -->
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="vertical-scrolling">
+            <!-- 1 khoi -->
+            <div class="" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center social-media-group">
+                            <div class="col-12 heading-contact-row">
+                                <span class="heading-contact">Kết nối với chúng tôi.</span>
+                            </div>
+                            <div class="col-12">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-google"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <!-- <a href="#" class="fa fa-instagram"></a> -->
+                            </div>
+                        </div>
+                        <form action="" method="">
+                            <div class="col-12 col-lg-6 text-center contact-form">
+                                <div class="col-12 heading-contact-row">
+                                    <span class="heading-contact">Gửi lời nhắn cho chúng tôi.</span>
+                                </div>
+                                <div class="row one-input">
+                                    <label class="col-12 col-md-3 col-lg-3 form-label">Họ Tên</label>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <input type="text" name="name" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="row one-input">
+                                    <label class="col-12 col-md-3 col-lg-3 form-label">SĐT</label>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <input name="numb" type="number" class="form-control" required>
+                                    </div>
+                                </div>
+                                <!-- <div class="row one-input">
+                                    <label class="col-12 col-md-3 col-lg-3 form-label">Email</label>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <input type="text" class="form-control" >
+                                    </div>
+                                </div> -->
+                                <div class="row one-input">
+                                    <label class="col-12 col-md-3 col-lg-3 form-label">Nội dung</label>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <textarea class="form-control" name="contents" rows="2"></textarea>
+                                    </div>
+                                </div>
+                                <!-- <div class="row one-input button-check">                                    
+                                    <div class="col-12">
+                                        <label class="">Xác nhận gửi thông tin</label>
+                                        <input type="checkbox" required name="" id="">
+                                    </div>
+                                </div> -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button class="btn btn-primary btn-gui" name="send">Gửi yêu cầu</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end 1 khoi -->
+        </section>
+       
+    </div>
+
+    
+
+    <!-- Modal for benefits-->
+    <div class="modal fade" id="modalBenefit" tabindex="-1" aria-labelledby="modalBenefitLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Quyền lợi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="benefit-text"><i class="fa fa-check-circle"></i><span> Đã bao gồm tên miền và hosting. Bạn chỉ cần thanh toán chi phí duy trì website hàng năm.</span></div>
+                    <div class="benefit-text"><i class="fa fa-check-circle"></i><span> Hỗ trợ nền tảng smartphone, ipad, website.</span></div>
+                    <div class="benefit-text"><i class="fa fa-check-circle"></i><span> Bảo hành 12 tháng.</span></div>
+                    <div class="benefit-text"><i class="fa fa-check-circle"></i><span> Hỗ trợ trực tuyến qua zalo.</span></div>
+                    <div class="benefit-text"><i class="fa fa-check-circle"></i><span> Hỗ trợ cào dữ liệu từ các sàn thương mại điện tử lớn</span>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for products-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ảnh chi tiết</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="img-detail-product" alt="" style="width: 100%;">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-primary">Đặt mua ngay</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- action to call -->
+    <!-- <div class="action-call">
+        <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet" href="tel:0355478049">
+            <div id="calltrap-ico"></div>
+            <i class="fa fa-phone my-float"></i>
+        </a>
+    </div> -->
+    <!-- welcome page -->
+    <div class="intro">
+        <div class="intro-text">
+            <h2 class="hide">
+                <span class="text">LOLO STORE</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text trichdan">Website của bạn</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text trichdan">cứ để chúng tôi lo.</span>
+            </h2>
+        </div>
+    </div>
+    <div class="slider"></div>
+
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script> -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script> -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script>
+        $('#fullpage').fullpage({
+            // sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
+            sectionSelector: '.vertical-scrolling',
+            // navigation: true,
+            slidesNavigation: true,
+            controlArrows: true,
+            anchors: ['gioi-thieu', 'dich-vu', 'cua-hang', 'lien-he'],
+            afterLoad: function(anchorLink, index) {
+                if (index == 5) {
+                    $('#fp-nav').hide();
+                }
+        },
+        onLeave: function(index, nextIndex, direction) {
+            if(index == 5) {
+            $('#fp-nav').show();
+            }
+        },   
+        });
+    </script>
+    <!-- 1 trick -->
+    <!-- <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous">
+    </script> -->
+    <script>
+        const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+        // tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
+        tl.to(".text", { y: "0%", duration: 1 });
+        tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
+        tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
+        tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
+
+    </script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+
+    <script>
+        $(document).ready(function() {
+            const IMG_ARR = [
+                { small:'images/sample/imgBaby.png', normal:'images/sample/mainBabyBlog.png' },
+                { small:'images/sample/imgRetro.png', normal:'images/sample/mainRetro.png' },
+                { small:'images/sample/imgBeauty.png' },
+                { small:'images/sample/imgFitness.png' },
+            ]
+
+            var getProductHeight = $('.product.active').height();
+
+            $('.products').css({
+                height: getProductHeight
+            });
+
+            function calcProductHeight() {
+                getProductHeight = $('.product.active').height();
+
+                $('.products').css({
+                height: getProductHeight
+                });
+            }
+
+            var productItem;
+            var productCurrentItem;
+                
+            $('.btn-next').on('click', function(e) {
+                e.preventDefault();
+
+                var idName = this.id;
+                productItem = $('.product-'+idName.slice(-1));
+                productCurrentItem = productItem.filter('.active'); 
+
+                var nextItem = productCurrentItem.next();
+                productCurrentItem.removeClass('active');
+
+                if (nextItem.length) {
+                    productCurrentItem = nextItem.addClass('active');
+                } else {
+                    productCurrentItem = productItem.first().addClass('active');
+                }
+
+                calcProductHeight();
+            });
+
+            $('.btn-prev').on('click', function(e) {
+                e.preventDefault();
+
+                var idName = this.id;
+                productItem = $('.product-'+idName.slice(-1));
+                productCurrentItem = productItem.filter('.active'); 
+
+                var prevItem = productCurrentItem.prev();
+
+                productCurrentItem.removeClass('active');
+
+                if (prevItem.length) {
+                    productCurrentItem = prevItem.addClass('active');
+                } else {
+                    productCurrentItem = productItem.last().addClass('active');
+                }
+
+                calcProductHeight(); 
+            });
+
+            // Show image modal
+            $('.btn-xem').on('click', function(e) {
+                var currentParam = this.id.slice(-1);
+                var itemActive = document.getElementsByClassName(`product-${currentParam} active`)[0];
+                var imgTag = itemActive.getElementsByTagName('img')[0];
+                var imgSrc = imgTag.src;
+                // console.log([{small:'str'}].filter(obj => obj.small.includes('tr')));
+                var bigImgSrc = IMG_ARR.filter(obj => imgSrc.includes(obj.small))[0];
+                $('#img-detail-product').attr('src', './'+ (typeof bigImgSrc.normal === 'undefined' ? bigImgSrc.small : bigImgSrc.normal ) );
+            });
+
+            // Ripple
+            $('[ripple]').on('click', function(e) {
+                var rippleDiv = $('<div class="ripple" />'),
+                rippleSize = 60,
+                rippleOffset = $(this).offset(),
+                rippleY = e.pageY - rippleOffset.top,
+                rippleX = e.pageX - rippleOffset.left,
+                ripple = $('.ripple');
+
+                rippleDiv.css({
+                top: rippleY - (rippleSize / 2),
+                left: rippleX - (rippleSize / 2),
+                background: $(this).attr("ripple-color")
+                }).appendTo($(this));
+
+                window.setTimeout(function() {
+                rippleDiv.remove();
+                }, 1900);
+            });
+            });
+
+    </script>
+    
+</body>
+</html>
